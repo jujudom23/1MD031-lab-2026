@@ -1,1 +1,102 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Burger Ordering Website</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+        <header> 
+            <h1> Burgers Online </h1>
+        </header>
+        <nav> Menu items</nav>
+        <main> 
+            <section>
+                <h1> Select Burger </h1>
+                <p1> Here you can select your meal</p1>
+                <div style="display: inline-block">
+                    <h1>Smash Burger</h1>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS04SQtGqoj7x1Ug1j1G6hiSpsILzI_2hk3kqSA9bPHAg&s=10" alt ="Smash Burger" title="Smash Burger" style = "width: 300px">
+                    <dl>
+                        <dt> Allergens</dt>
+                            <dd> Gluten, Lactose, Eggs</dd>
+                        <dt> Ingredients</dt>
+                            <dd> Bread, Cheese, Meat, Eggs, Mayonaise,</dd>
+                     </dl>
+                </div>
+                <div style="display: inline-block">
+                    <h1>Chicken Burger</h1>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlDokuuur6MkQYWit-Y7NKPQaTNT0yxXO7HpS2JJ18bg&s=10" alt ="Chicken Burger" title="Chicken Burger" style ="width: 300px">
+                    <dl>
+                        <dt> Allergens</dt>
+                            <dd> Gluten, Lactose, Eggs, Chicken</dd>
+                        <dt> Ingredients</dt>
+                            <dd>Bread, Chicken, Tomato</dd>
+                    </dl>
+                </div>
+                <div style="display: inline-block">
+                    <h1>Haloumi Burger</h1>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ01J8ycUA9fDM4cydzxlpFMhaBKzU1RDvBjSXgr8s4w&s=10" alt ="Halloumi Burger" title="Halloumi Burger" style ="width: 300px">
+                    <dl>
+                        <dt> Allergens</dt>
+                            <dd> Gluten, Lactose, Eggs, Halloumi</dd>
+                        <dt> Ingredients</dt>
+                            <dd>Bread, Halloumi, Tomato</dd>
+                    </dl>
+                </div>
+            </section>
+            <section id="contact">
+                <h2> Your information </h2>
+                <p2> Fill out your information </p2>
+                <form>
+                    <p>
+                    <label for="fullname">Full name</label><br>
+                    <input type="text" id="fullname" name="fn" required="required" placeholder="First- and Last name">
+                    </p>
+                    <p>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                    </p>
+                     <p>
+                    <label for="street">Street</label><br>
+                    <input type="text" id="streetname" name="st" placeholder="Street name">
+                    </p>
+                     <p>
+                    <label for="house">House</label><br>
+                    <input type="number" id="house" name="hn" placeholder="House number">
+                    </p>
+                
+                <p>
+                <label for="paymentoption">Payment</label><br>
+                <select id="paymentoption" name="payop">
+                <option selected ="selected">Card </option>
+                <option>Swish</option>
+                <option>Klarna</option>
+                <option>Apple Pay</option>
+                <option>Samsung Pay</option>
+                </select>
+                </p>
+                <p>
+                <label> Gender</label><br>
+                
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label><br>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Do not wish to specify</label>
+                </p>
+            </form>
+        </section>
+        <button type="submit">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV8RbC5UPYzRlv791WNFybWp-ZXoljXLr1PQztMcPbcg&s=10" alt="Submit Order icon" style="width: 20px;">
+        Submit Order
+        </button>
+    </main>
+    <hr>
+    <footer>
+        end notes
+    </footer>
+  </body>
+  </html>
